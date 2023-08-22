@@ -1,7 +1,7 @@
-import Home from "./Web_Layout/Home";
+import Shopping from "./Ex_Shopping/Shopping";
 
 function App() {
-  return <Home />;
+  return <Shopping />;
 }
 
 export default App;
