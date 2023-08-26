@@ -40,6 +40,10 @@ export default function Shopping() {
     setIsOpen(false);
   };
 
+  const handleCloseDesc = () => {
+    setSelectedProduct(null);
+  };
+
   return (
     <div className="container">
       <h1 className="text-center text-primary">Shoe Shop</h1>
@@ -53,7 +57,7 @@ export default function Shopping() {
         onGetProduct={handleGetProducts}
         onAddProduct={handleAddProducts}
       />
-      <ProductDetails product={selectedProduct} onCloseCart={handleCloseCart} />
+      <ProductDetails product={selectedProduct} onCloseDesc={handleCloseDesc} />
       {isOpen && <Cart cart={cart} onCloseCart={handleCloseCart} />}
     </div>
   );

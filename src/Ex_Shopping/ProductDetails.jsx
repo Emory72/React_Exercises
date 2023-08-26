@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ProductDetails({ onCloseCart, product }) {
+export default function ProductDetails({ onCloseDesc, product }) {
   if (!product) {
     return null;
   }
@@ -16,7 +16,7 @@ export default function ProductDetails({ onCloseCart, product }) {
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-                onClick={onCloseCart}
+                onClick={onCloseDesc}
               ></button>
             </div>
             <div className="modal-body">
