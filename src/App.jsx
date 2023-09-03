@@ -1,7 +1,5 @@
-import Shopping from "./Ex_Shopping/Shopping";
-
 function App() {
-  return <Shopping />;
+  return <div> </div>;
 }
 
 export default App;
