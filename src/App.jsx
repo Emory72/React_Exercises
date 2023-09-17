@@ -1,5 +1,11 @@
+import Movie from "./MovieTicket/Movie";
+
 function App() {
-  return <div> </div>;
+  return (
+    <div>
+      <Movie />
+    </div>
+  );
 }
 
 export default App;
